@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+margin:0;
+padding:0;
+} 
+
+@font-face{font-family: 'Roboto', sans-serif, cursive;font-family: 'Nunito Sans', sans-serif;}
+h1,a,li {font-family: 'Roboto', sans-serif;}
+p {font-family: 'Nunito Sans', sans-serif;}
+
+/*banner*/
+nav {
+	padding: 0 30px;
+	background-color:#292b2c;
+	width: 100%;
+	z-index: 99999;
+	position: fixed;
+}
+nav ul {
+	float: right;
+	width: 30%;
+	padding: 15px;
+}
+nav ul li {
+	display: inline;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	padding: 0px 25px;
+}
+nav a:link {
+	color:white;
+	text-decoration: none;
+}
+nav a:visited{
+	color: #4e3c51;
+}
+nav img {
+	height: 50px;
+}
+/*portfolio*/
+
+#portfolio {
+	text-align: center;
+	padding:50px 50px;
+	background-color: #4e3c51;
+}
+.tab button {
+	border: none;
+	background-color: transparent;
+	padding:0 10px;
+	font-size: 15px;
+}
+.tab button:hover {
+	background-color: #4e3c51;
+}
+#portfolio h1 {
+	color: #e3e3e3;
+	text-transform: uppercase;
+	font-size:50px;
+	font-weight:1000;
+	padding: 20px 0;
+}
+.product{
+	display:grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: 300px 50px;
+	margin-top:30px  ;
+	grid-gap:15px;
+	margin:40px 300px;
+	height: 688px;
+}
+.product1 {
+	background-image: url("img/img3.png");
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height:300px;
+	width:300px;
+}
+.product2 {
+	background-image: url("img/img4.jpg");
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height:300px;
+	width:300px;
+}
+.product3 {
+	background-image: url("img/img6.png");
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height:300px;
+	width:300px;
+}
+.product4 {
+	background-image: url("img/img1.png");
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height:300px;
+	width:300px;
+}
+.product5 {
+	background-image: url("img/img2.png");
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height:300px;
+	width:300px;
+}
+.product6 {
+	background-image: url("img/img5.jpg");
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height:300px;
+	width:300px;
+}
